@@ -24,8 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>MS2A-CFOD Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>MS2A: MemoryStorage-to-Adaptation for Cross-domain Few-annotation Industrial Detection</title>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -167,6 +166,15 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
+
+        <p align="center">
+          <img width="100%" src="./static/images/figure2.png" class="img-responsive" alt="overview">
+        </p>
+
+        <p align="center">
+          <img width="100%" src="./static/images/figure2.png" class="img-responsive" alt="overview">
+        </p>
+
         <div class="content has-text-justified">
           <p>
                 Cross-domain few-annotation object detection (CFOD) aims to transfer a detector trained on the source domain to the target domain with less annotated data, which is a common problem that needs to be solved urgently in the industrial fields. The main challenge lies in that it is difficult to maintain the performance of the source domain when the annotation of target domain data is severely insufficient and its environment is very different from the source domain. Current methods primarily concentrate on addressing the data imbalance problem by using source data to augment the target data or aligning the target domain features with the source data. However, their gains are constrained as they solely focus on the limited labeled target data, which cannot fully represent the entire target domain. Moreover, they fail to consider the valuable prior information present in the extensive unlabeled target data. 
@@ -186,6 +194,16 @@
 
 
 <!-- Image carousel -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Detection Results</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
@@ -239,9 +257,67 @@
 </section>
 <!-- End image carousel -->
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Detection Results</h2>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/datasets_comparison.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Dataset comparison
+        </h2>
+      </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/featuremap3.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+         Feature maps visualization of target domain data.
+      </h2>
+    </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/detection_results_comparison.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Detection results on our CFOD Industrial Dataset.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/C2F.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Detection results on C2F scene.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/K2C.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+         Detection results on K2C scene.
+      </h2>
+    </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/S2C.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+         Detection results on S2C scene.
+      </h2>
+    </div>
 
-
+  </div>
+</div>
+</div>
+</section>
 <!-- Paper poster 
 <section class="hero is-small is-light">
   <div class="hero-body">
