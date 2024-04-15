@@ -58,22 +58,19 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors --> 
               <span class="author-block">
-              Yuhang Huang<sup>1*</sup>,</span>
+              Yuhang Huang<sup>&dagger;</sup>,</span></span>
             <span class="author-block">
-              Shilong Zou<sup>1*</sup>,</span>
+              Shilong Zou<sup>&dagger;</sup>,</span></span>
             <span class="author-block">
-              Yunfan Ye<sup>1</sup>,
+              Xinwang Liu<sup></sup>,</span>
             </span>
             <span class="author-block">
-              Xinwang Liu<sup>1</sup>,
-            </span>
-            <span class="author-block">
-              Kai Xu<sup>1✉</sup>,
+              Kai Xu<sup>*</sup>
             </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>National University of Defense and Technology<br>under review</span>
+                    <span class="author-block"><sup></sup>National University of Defense and Technology<br>under review</span>
                     <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
 
@@ -176,14 +173,14 @@
 
         <div class="content has-text-justified">
           <p>
-                Cross-domain few-annotation object detection (CFOD) aims to transfer a detector trained on the source domain to the target domain with less annotated data, which is a common problem that needs to be solved urgently in the industrial fields. The main challenge lies in that it is difficult to maintain the performance of the source domain when the target domain data is severely under-annotated and its environment is very different from the source domain. Current methods primarily concentrate on utilizing the limited labeled target data to address the data imbalance and feature unalignment between the source and target domains. However, their gains are constrained as the limited labeled target data cannot represent the entire target domain. Moreover, they fail to consider the valuable prior information present in the extensive unlabeled target data.
+            Cross-domain few-annotation object detection (CFOD) aims to transfer a detector trained on the source domain to the target domain with less annotated data, which is a common problem that needs to be solved urgently in the industrial fields. The main challenge lies in that it is difficult to maintain the performance of the source domain when the target domain data is severely under-annotated and its environment is very different from the source domain. Current methods primarily concentrate on utilizing the limited labeled target data to address the data imbalance and feature unalignment between the source and target domains. However, their gains are constrained as the limited labeled target data cannot represent the entire target domain. Moreover, they fail to consider the valuable prior information present in the extensive unlabeled target data.
               </p>
               <p>
               In this paper, we propose a novel <b> memory storage-to-adaptation (MS2A) mechanism </b> to effectively mine prior knowledge and transfer the prior knowledge to both domains adaptively. 
-Specifically, our approach involves two key components. On the one hand, we introduce a memory storage module, which comprehensively captures the prior knowledge from both source and unlabeled target data. We refine the prior knowledge and store it as the memory for later domain adaptation. On the other hand, we present an efficient memory adaptation module that integrates the memory into the feature alignment of target domain data, resulting in more discriminative features and improving the detection performance significantly. 
+              Specifically, our approach involves two key components. On the one hand, we introduce a memory storage module, which comprehensively captures the prior knowledge from both source and unlabeled target data. We refine the prior knowledge and store it as the memory for later domain adaptation. On the other hand, we present an efficient memory adaptation module that integrates the memory into the feature alignment of target domain data, resulting in more discriminative features and improving the detection performance significantly.
               </p>
               <p>
-              To evaluate the effectiveness of our proposed method, we have collected a more challenging dataset in industrial scenes. Our method is assessed on both the constructed dataset and publicly available datasets and the experimental results demonstrate that we achieve new <b> state-of-the-art </b> performances on both sets of datasets. In particular, MS2A exceeds the state of the art by 7.3% on the challenging industrial dataset for the 10-annotation setting.
+                To evaluate the effectiveness of our proposed method, we have collected a more challenging dataset in industrial scenes. Our method is assessed on both the constructed dataset and publicly available datasets and the experimental results demonstrate that we achieve new <b> state-of-the-art </b> performances on both sets of datasets. In particular, MS2A exceeds the state of the art by 10.4% on the challenging industrial dataset for the 10-annotation setting.
               </p>
         </div>
       </div>
@@ -273,35 +270,35 @@ Specifically, our approach involves two key components. On the one hand, we intr
         <!-- Your image here -->
         <img width="100%" src="static/images/C2F.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Detection results on C2F scene.
+          Qualitative comparisons on public datasets C &rarr; F setting.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
       <img width="100%" src="static/images/K2C.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-         Detection results on K2C scene.
+        Qualitative comparisons on public datasets K &rarr; C setting.
       </h2>
     </div>
      <div class="item">
       <!-- Your image here -->
       <img width="100%" src="static/images/S2C.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-         Detection results on S2C scene.
+        Qualitative comparisons on public datasets S &rarr; C setting.
       </h2>
     </div>
     <div class="item" style="flex-direction: column; align-items: center; justify-content: center; text-align: center;">
       <!-- Your image here -->
       <img width="100%" src="static/images/detection_results_comparison.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Detection results on our CFOD Industrial Dataset S2T1.
+        Quantitative results on Indus-S &rarr; Indus-T1.
       </h2>
     </div>
     <div class="item" style="flex-direction: column; align-items: center; justify-content: center; text-align: center;">
       <!-- Your image here -->
       <img width="100%" src="static/images/S2T1.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Detection results on our CFOD Industrial Dataset S2T2.
+        Quantitative results on Indus-S &rarr; Indus-T2.
       </h2>
     </div>
 
@@ -329,7 +326,7 @@ Specifically, our approach involves two key components. On the one hand, we intr
         <!-- Your image here -->
         <img src="static/images/datasets_comparison.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Dataset comparison
+          Comparisons between different datasets.
         </h2>
       </div>
      <div class="item" style="flex-direction: column; align-items: center; justify-content: center; text-align: center;">
